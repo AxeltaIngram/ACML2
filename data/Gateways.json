@@ -1,0 +1,157 @@
+{
+    "app_id": "aebed3b90bcabac4e7c6eef5b9e601",
+    "collection_id": "de8e9eba0bcade92e8ebfea3a323",
+    "items": [
+        {
+            "asset_id": "",
+            "battery_level": "",
+            "customer_id": "2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8",
+            "employee_id": "",
+            "gateway_description": "",
+            "gateway_id": "904065",
+            "gateway_label": "Gateway 1",
+            "gateway_name": "CGW3 3g North America - 904065",
+            "item_id": "24e1ad42-467a-4d22-9182-a93690de5071",
+            "location_id": "339552d1-1d57-4a07-826c-3f1805157029",
+            "manufacturer": "Gateway",
+            "network_id": "5",
+            "notes": "",
+            "signal_strength": "",
+            "zone_id": "7167d432-cc54-4b92-a3a5-a831a097038a"
+        },
+        {
+            "asset_id": "",
+            "battery_level": "101",
+            "customer_id": "2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8",
+            "employee_id": "",
+            "gateway_description": "",
+            "gateway_id": "999325",
+            "gateway_label": "SmartCity-Gateway",
+            "gateway_name": "GW-400-T2-50",
+            "item_id": "30958f93-87c6-4675-9e80-43489993aa9b",
+            "location_id": "3dba6742-6531-4f07-bfb5-d916f3a9b1db",
+            "manufacturer": "",
+            "network_id": "55398",
+            "notes": "",
+            "signal_strength": "47",
+            "zone_id": "1e122f90-6604-441f-bdb3-20af0441ccf4"
+        },
+        {
+            "asset_id": "",
+            "battery_level": "101",
+            "customer_id": "2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8",
+            "employee_id": "",
+            "gateway_description": "",
+            "gateway_id": "916791",
+            "gateway_label": "ACML-Gateway",
+            "gateway_name": "GW-319-T1-43-1",
+            "item_id": "5c21fd93-fbb7-4dfc-b0dc-93484142560c",
+            "location_id": "1b39091c-89d1-41d9-adfd-a0e8d14e3013",
+            "manufacturer": "Gateway1",
+            "network_id": "55398",
+            "notes": "",
+            "signal_strength": "17",
+            "zone_id": "67ae0688-b608-4c61-840f-fc527f780613"
+        },
+        {
+            "asset_id": "",
+            "battery_level": "101",
+            "customer_id": "2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8",
+            "employee_id": "",
+            "gateway_description": "",
+            "gateway_id": "913529",
+            "gateway_label": "Gateway913529",
+            "gateway_name": "CGW3 3g North America - 913529  ",
+            "item_id": "c167ca47-2b64-4c64-a2ba-fb5fec9b0b67",
+            "location_id": "339552d1-1d57-4a07-826c-3f1805157029",
+            "manufacturer": "",
+            "network_id": "55398",
+            "notes": "",
+            "signal_strength": "17",
+            "zone_id": "7167d432-cc54-4b92-a3a5-a831a097038a"
+        }
+    ],
+    "name": "Gateways",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15,
+        "Monnit Webhook Adapter": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "gateway_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "network_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_label",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_description",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "notes",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "location_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "customer_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "employee_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "battery_level",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "signal_strength",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "zone_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "asset_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "manufacturer",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}

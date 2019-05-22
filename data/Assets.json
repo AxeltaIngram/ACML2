@@ -1,0 +1,168 @@
+{
+    "app_id": "aebed3b90bcabac4e7c6eef5b9e601",
+    "collection_id": "f6c697ba0bd2aaf88ae69ebddd8301",
+    "items": [
+        {
+            "asset_model": "1235444",
+            "asset_type_id": "53ca1229-f82d-4556-99b3-cee117eb5168",
+            "category": "Temperature Asset",
+            "comments": "",
+            "customer_id": "2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8",
+            "icon": "",
+            "item_id": "98cbc2e2-bd49-4d4d-abe7-73425352eacd",
+            "last_serviced": null,
+            "location_id": "339552d1-1d57-4a07-826c-3f1805157029",
+            "name": "Data Centre - Temperature",
+            "primary_employee": "test@gmail.com",
+            "technician_notes": "",
+            "zone_id": "7167d432-cc54-4b92-a3a5-a831a097038a"
+        },
+        {
+            "asset_model": "",
+            "asset_type_id": "53ca1229-f82d-4556-99b3-cee117eb5168",
+            "category": "SoilWater",
+            "comments": "",
+            "customer_id": "2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8",
+            "icon": "",
+            "item_id": "9c4a15c4-bea8-4b6b-9b9b-497d1acbd5db",
+            "last_serviced": null,
+            "location_id": "3dba6742-6531-4f07-bfb5-d916f3a9b1db",
+            "name": "Soil \u0026 Water",
+            "primary_employee": "smartcitydemo@axelta.com",
+            "technician_notes": "",
+            "zone_id": "1e122f90-6604-441f-bdb3-20af0441ccf4"
+        },
+        {
+            "asset_model": "",
+            "asset_type_id": "53ca1229-f82d-4556-99b3-cee117eb5168",
+            "category": "AirQuality",
+            "comments": "",
+            "customer_id": "2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8",
+            "icon": "",
+            "item_id": "a37359ff-0587-46a1-ab73-baae3e505700",
+            "last_serviced": null,
+            "location_id": "3dba6742-6531-4f07-bfb5-d916f3a9b1db",
+            "name": "Air Quality",
+            "primary_employee": "smartcitydemo@axelta.com",
+            "technician_notes": "",
+            "zone_id": "1e122f90-6604-441f-bdb3-20af0441ccf4"
+        },
+        {
+            "asset_model": "123890",
+            "asset_type_id": "53ca1229-f82d-4556-99b3-cee117eb5168",
+            "category": "Asset",
+            "comments": "",
+            "customer_id": "2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8",
+            "icon": "",
+            "item_id": "be35f9cc-d985-48f3-b62b-aeb96e486989",
+            "last_serviced": null,
+            "location_id": "339552d1-1d57-4a07-826c-3f1805157029",
+            "name": "Data Center - Door",
+            "primary_employee": "test@gmail.com",
+            "technician_notes": "",
+            "zone_id": "7167d432-cc54-4b92-a3a5-a831a097038a"
+        },
+        {
+            "asset_model": "101",
+            "asset_type_id": "53ca1229-f82d-4556-99b3-cee117eb5168",
+            "category": "Assets1",
+            "comments": "",
+            "customer_id": "2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8",
+            "icon": "",
+            "item_id": "d3fa17c2-d7b4-4460-82c6-2c8e5c1c62ae",
+            "last_serviced": null,
+            "location_id": "1b39091c-89d1-41d9-adfd-a0e8d14e3013",
+            "name": "ACML-Asset1",
+            "primary_employee": "acmldemo@gmail.com",
+            "technician_notes": "",
+            "zone_id": "67ae0688-b608-4c61-840f-fc527f780613"
+        },
+        {
+            "asset_model": "101",
+            "asset_type_id": "53ca1229-f82d-4556-99b3-cee117eb5168",
+            "category": "Assets2",
+            "comments": "",
+            "customer_id": "2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8",
+            "icon": "",
+            "item_id": "d6b8dd66-a740-44e0-a3ee-91b926a3b58b",
+            "last_serviced": null,
+            "location_id": "1b39091c-89d1-41d9-adfd-a0e8d14e3013",
+            "name": "ACML-Asset2",
+            "primary_employee": "acmldemo@gmail.com",
+            "technician_notes": "",
+            "zone_id": "67ae0688-b608-4c61-840f-fc527f780613"
+        }
+    ],
+    "name": "Assets",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "asset_type_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "location_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "customer_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "primary_employee",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "comments",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "zone_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "asset_model",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "last_serviced",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "technician_notes",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "category",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}

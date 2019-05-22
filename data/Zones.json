@@ -1,0 +1,79 @@
+{
+    "app_id": "aebed3b90bcabac4e7c6eef5b9e601",
+    "collection_id": "dcb2c4c10ba0c7a29bafecb4e413",
+    "items": [
+        {
+            "item_id": "1e122f90-6604-441f-bdb3-20af0441ccf4",
+            "label": "Smart_City",
+            "location_id": "3dba6742-6531-4f07-bfb5-d916f3a9b1db",
+            "name": "Enviroment",
+            "picture": "",
+            "primary_employee": "smartcitydemo@axelta.com"
+        },
+        {
+            "item_id": "67ae0688-b608-4c61-840f-fc527f780613",
+            "label": "ACML_ZONE",
+            "location_id": "1b39091c-89d1-41d9-adfd-a0e8d14e3013",
+            "name": "ACML-Zone1",
+            "picture": "",
+            "primary_employee": "acmldemo@gmail.com"
+        },
+        {
+            "item_id": "7167d432-cc54-4b92-a3a5-a831a097038a",
+            "label": "Test 1",
+            "location_id": "339552d1-1d57-4a07-826c-3f1805157029",
+            "name": "First Floor",
+            "picture": "",
+            "primary_employee": "test@gmail.com"
+        },
+        {
+            "item_id": "b3f21e0e-216d-4ae5-80a1-859a736dd610",
+            "label": "First Floor",
+            "location_id": "db1dd8c7-7328-4a1e-9423-744b46c89c6d",
+            "name": "First Floor",
+            "picture": "",
+            "primary_employee": "test@gmail.com"
+        }
+    ],
+    "name": "Zones",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 0,
+        "Authenticated": 15,
+        "Monnit Webhook Adapter": 15,
+        "PortalEditor": 15,
+        "sms-webhook-adapter": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "location_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "label",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "primary_employee",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "picture",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
